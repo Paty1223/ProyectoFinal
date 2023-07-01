@@ -3,6 +3,7 @@ using MediatR;
 
 namespace Application.Customers.Create;
 
+/*Crearte Customer*/
 public record CreateCustomerCommand(
     string Name,
     string LastName,
